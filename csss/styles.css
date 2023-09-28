@@ -450,8 +450,12 @@ fill: var(--cloud);
 }
 
 .footer-subscribe{
-    margin-bottom: 16px;
-    color: var(--white);
+ margin-left: 80px;       
+}
+
+.subscribe-tex{
+margin-bottom: 16px;
+color: var(--white);
 font-family: Roboto;
 font-size: 16px;
 font-style: normal;
@@ -472,7 +476,7 @@ letter-spacing: 0.02em;
    background-color: transparent;
    font-size: 12px;
    line-height: 1.5;
-   letter-spacing: 0.4em;
+   letter-spacing: 0.04em;
    padding-left: 16px;
    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); 
    border-radius: 4px;
@@ -501,10 +505,12 @@ letter-spacing: 0.02em;
     border-radius: 4px;
 }
 
-.subscribe-icon{
-    margin-left: 16px;
+.subscribe-btn-footer:hover ,
+.subscribe-btn-footer:focus {
+    background-color: var(--ocean);
 }
-
     
-
-    
+    .subscribe-icon{
+        fill: var(--white);
+        margin-left: 16px;
+    }
