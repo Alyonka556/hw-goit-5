@@ -670,8 +670,8 @@ letter-spacing: 0.02em;
     pointer-events: none;
 }
 
-.modal-container{
-     
+.modal-container{ 
+    margin-top: auto;  
 }
     
 .modal{
