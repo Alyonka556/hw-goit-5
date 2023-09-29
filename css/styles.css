@@ -827,6 +827,12 @@ background-color: transparent;
     margin-bottom: 24px;
 }
 
+input:checked {
+    background-color: var(--ocean);
+    border: none;
+    fill: var(--cloud); 
+}
+
 
 .modal-agreement-input:checked + .modal-checkbox > .checkbox-agreement {
     background-color: var(--ocean);
