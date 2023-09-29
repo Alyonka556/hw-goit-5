@@ -726,11 +726,11 @@ fill: var(--white);
     
 .modal-title {
     display: block;
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: var(--navy-blue);
 text-align: center;
 justify-content: center;
 align-items: center;
-color: var(--NAVY-BLUE, #2E2F42);
+color: var(--navy-blue);
 text-align: center;
 font-size: 16px;
 font-weight: 500;
@@ -825,12 +825,10 @@ background-color: transparent;
 
 .checkbox-container {
     margin-bottom: 24px;
-    appearance: none;
-    fill: var(--white);
 }
 
 
-.modal-agreement-input:checked + .modal-checkbox .checkbox-agreement {
+.modal-agreement-input:checked + .modal-checkbox > .checkbox-agreement {
     background-color: var(--ocean);
     border: none;
     fill: var(--cloud);
@@ -859,25 +857,14 @@ border 250ms cubic-bezier(0.4, 0, 0.2, 1),
 fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-checkbox-icon {
-    opacity: 0;
-    background: transparent;
-}
-
 input:checked {
-    fill: #FFF;
-}
-
-
-
-
-.modal-agreement-input:checked + .modal-checkbox + .checkbox-agreement > .modal-checkbox-icon {
-    opacity: 1;
     fill: var(--white);
+    border-color: var(--ocean);
+    border: none;
 }
 
 .modal-agreement-link {
-color: var(--color-iris, #4D5AE5);
+color: var(--color-iris);
 font-size: 12px;
 font-weight: 400;
 line-height: 1.33;
@@ -889,11 +876,11 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .modal-agreement-link:hover ,
 .modal-agreement-link:focus {
     color: var(--ocean);
-    fill: #FFF;
+    fill: var(--white);
 }
 
 .btn-submit {
-color: var(--WHITE, #FFF);
+color: var(--white);
 text-align: center;
 font-size: 16px;
 font-weight: 500;
