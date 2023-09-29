@@ -863,12 +863,6 @@ border 250ms cubic-bezier(0.4, 0, 0.2, 1),
 fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-input:checked {
-    fill: var(--white);
-    border-color: var(--ocean);
-    border: none;
-}
-
 .modal-agreement-link {
 color: var(--color-iris);
 font-size: 12px;
